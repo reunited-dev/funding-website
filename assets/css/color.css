@@ -143,7 +143,7 @@ nav > div ul ul li a:before,
 .rspns-mnu ul li > a:focus,
 .rspns-mnu ul li.active > a
 {
-	color: #00c674;
+	color: #f5317f;
 }
 
 /*===== Border Color =====*/
@@ -172,29 +172,29 @@ nav > div ul ul li a:before,
 .prc-bx > a:hover,
 .prc-bx > a:focus
 {
-	border-color: #00c674;
+	border-color: #f5317f;
 }
 
 
 {
-	border-top-color: #00c674;
+	border-top-color: #f5317f;
 }
 
 .wb-top-donate-list-wrap > a:hover,
 .wb-top-donate-list-wrap > a:focus,
 .rspns-lnks-lst > a span:before
 {
-	border-bottom-color: #00c674;
+	border-bottom-color: #f5317f;
 }
 
 .blg-dat.thm-bg:before
 {
-	border-left-color: #00c674;
+	border-left-color: #f5317f;
 }
 
 
 {
-	border-right-color: #00c674;
+	border-right-color: #f5317f;
 }
 
 
