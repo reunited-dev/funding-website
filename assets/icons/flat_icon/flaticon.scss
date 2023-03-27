@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d442db12eb2a974f40e5edbac198636a") format("truetype"),
+url("./flaticon.woff?d442db12eb2a974f40e5edbac198636a") format("woff"),
+url("./flaticon.woff2?d442db12eb2a974f40e5edbac198636a") format("woff2"),
+url("./flaticon.eot?d442db12eb2a974f40e5edbac198636a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d442db12eb2a974f40e5edbac198636a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "close-button": "\f101",
+    "dollar": "\f102",
+    "down-arrow": "\f103",
+    "down-chevron": "\f104",
+    "eye": "\f105",
+    "left-chevron": "\f106",
+    "play-arrow": "\f107",
+    "quote-left": "\f108",
+    "right-arrow": "\f109",
+    "right-chevron": "\f10a",
+    "right-quotation-mark": "\f10b",
+    "up-arrow": "\f10c",
+    "up-chevron": "\f10d",
+    "user-profile": "\f10e",
+);
+
+.flaticon-close-button:before {
+    content: map-get($flaticon-map, "close-button");
+}
+.flaticon-dollar:before {
+    content: map-get($flaticon-map, "dollar");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon-map, "eye");
+}
+.flaticon-left-chevron:before {
+    content: map-get($flaticon-map, "left-chevron");
+}
+.flaticon-play-arrow:before {
+    content: map-get($flaticon-map, "play-arrow");
+}
+.flaticon-quote-left:before {
+    content: map-get($flaticon-map, "quote-left");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-right-chevron:before {
+    content: map-get($flaticon-map, "right-chevron");
+}
+.flaticon-right-quotation-mark:before {
+    content: map-get($flaticon-map, "right-quotation-mark");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-up-chevron:before {
+    content: map-get($flaticon-map, "up-chevron");
+}
+.flaticon-user-profile:before {
+    content: map-get($flaticon-map, "user-profile");
+}
