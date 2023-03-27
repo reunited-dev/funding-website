@@ -4620,9 +4620,9 @@ div.slick-current .strs-itm-inr > i {
 .pagination > li.page-item span.page-link {color: #fff;}
 /*===== Page Top =====*/
 .pg-tp-bg {
-  min-height: 41.25rem;
+  min-height: 50rem;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   width: 100%;
 }
 .brdcrmb-wrp {width: 100%;}
