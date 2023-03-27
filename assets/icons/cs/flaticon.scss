@@ -1,0 +1,121 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d5aefea5121929283ae6c82120a11955") format("truetype"),
+url("./flaticon.woff?d5aefea5121929283ae6c82120a11955") format("woff"),
+url("./flaticon.woff2?d5aefea5121929283ae6c82120a11955") format("woff2"),
+url("./flaticon.eot?d5aefea5121929283ae6c82120a11955#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d5aefea5121929283ae6c82120a11955#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "swords": "\f101",
+    "ice-hockey": "\f102",
+    "football": "\f103",
+    "baseball-ball": "\f104",
+    "baseball-ball-1": "\f105",
+    "basketball-ball-variant": "\f106",
+    "briefcase": "\f107",
+    "user": "\f108",
+    "rugby": "\f109",
+    "golf": "\f10a",
+    "chat": "\f10b",
+    "document": "\f10c",
+    "affiliate": "\f10d",
+    "earth-globe": "\f10e",
+    "crescent-moon-and-star": "\f10f",
+    "wallet-filled-money-tool": "\f110",
+    "bell": "\f111",
+    "user-profile": "\f112",
+    "back": "\f113",
+    "loupe": "\f114",
+    "menu": "\f115",
+    "close": "\f116",
+    "menu-1": "\f117",
+    "menu-2": "\f118",
+);
+
+.flaticon-swords:before {
+    content: map-get($flaticon-map, "swords");
+}
+.flaticon-ice-hockey:before {
+    content: map-get($flaticon-map, "ice-hockey");
+}
+.flaticon-football:before {
+    content: map-get($flaticon-map, "football");
+}
+.flaticon-baseball-ball:before {
+    content: map-get($flaticon-map, "baseball-ball");
+}
+.flaticon-baseball-ball-1:before {
+    content: map-get($flaticon-map, "baseball-ball-1");
+}
+.flaticon-basketball-ball-variant:before {
+    content: map-get($flaticon-map, "basketball-ball-variant");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-rugby:before {
+    content: map-get($flaticon-map, "rugby");
+}
+.flaticon-golf:before {
+    content: map-get($flaticon-map, "golf");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-document:before {
+    content: map-get($flaticon-map, "document");
+}
+.flaticon-affiliate:before {
+    content: map-get($flaticon-map, "affiliate");
+}
+.flaticon-earth-globe:before {
+    content: map-get($flaticon-map, "earth-globe");
+}
+.flaticon-crescent-moon-and-star:before {
+    content: map-get($flaticon-map, "crescent-moon-and-star");
+}
+.flaticon-wallet-filled-money-tool:before {
+    content: map-get($flaticon-map, "wallet-filled-money-tool");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-user-profile:before {
+    content: map-get($flaticon-map, "user-profile");
+}
+.flaticon-back:before {
+    content: map-get($flaticon-map, "back");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-menu-2:before {
+    content: map-get($flaticon-map, "menu-2");
+}

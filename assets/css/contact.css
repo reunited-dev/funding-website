@@ -1,0 +1,107 @@
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact_banner_wrapper {
+  background-color: #2a295b;
+  background-image: url("../images/contact_banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.contact_banner_wrapper .container {
+  background-image: url("../images/contact_banner_illustration.png");
+  background-repeat: no-repeat;
+  background-size: 180px 100px;
+  background-position: right 0px bottom 0px;
+  padding-top: 110px;
+  padding-bottom: 112px;
+}
+
+.hero_title {
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.167;
+  color: #ffffff;
+}
+
+.contact_banner_wrapper .container nav .breadcrumb .breadcrumb-item {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.556;
+  color: #ffffff;
+  padding-left: 0.1rem;
+  margin-left: 0.1rem;
+}
+
+.contact_banner_wrapper .container nav .breadcrumb .breadcrumb-item::before {
+  display: none;
+}
+
+.contact_banner_wrapper .container nav .breadcrumb .breadcrumb-item .flaticon-right-arrow {
+  font-size: 20px;
+  margin: 0px 2px;
+  color: #a394c1;
+  float: left;
+  padding-right: 0.5rem;
+}
+
+@media only screen and (min-width: 575px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .contact_banner_wrapper .container {
+    background-size: 180px 100px;
+    background-position: right 0px bottom 0px;
+    padding-top: 90px;
+    padding-bottom: 92px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .contact_banner_wrapper .container {
+    background-size: 363px 150px;
+    background-position: right 0px bottom 0px;
+    padding-top: 90px;
+    padding-bottom: 92px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .contact_banner_wrapper .container {
+    background-size: 463px 200px;
+    background-position: right 0px bottom 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .contact_banner_wrapper .container {
+    background-size: 563px 240px;
+    background-position: right 23px bottom 0px;
+    padding-top: 110px;
+    padding-bottom: 112px;
+  }
+}
