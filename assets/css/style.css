@@ -1183,7 +1183,7 @@ nav > div > ul > li a {
   position: relative;
   display: block;
 }
-nav > div > ul > li > a:before {
+/*nav > div > ul > li > a:before {
   content: "";
   position: absolute;
   right: -0.15625rem;
@@ -1195,7 +1195,7 @@ nav > div > ul > li > a:before {
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
   top: 50%;
   margin-top: -.0.03125rem;
-}
+}*/
 nav > div > ul > li > a:hover:before {
   width: calc(100% + 0.15625rem);
   left: -0.15625rem;
