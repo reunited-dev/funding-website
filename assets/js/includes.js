@@ -13,6 +13,11 @@ function getFile(file, elmnt){
 let header = document.querySelector("header");
 getFile("./header.html",header);
 
+let pageLoader = document.createElement("div");
+pageLoader.classList.add('page-loader');
+getFile("./page-loader.html",pageLoader);
+header.before(pageLoader);
+
 let stickyHeader = document.createElement("div");
 stickyHeader.classList.add('sticky-header');
 stickyHeader.classList.add('flex');
