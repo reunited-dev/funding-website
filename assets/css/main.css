@@ -3619,9 +3619,7 @@ section .container .experience {
   margin-left: 0px; }
 
 /*====footer style start====*/
-footer {
-  background-color: #25294a;
-  padding-top: 87px; }
+
   footer .container .footer_nav .col-lg-7 {
     margin-top: 35px;
     margin-bottom: 18px; }
