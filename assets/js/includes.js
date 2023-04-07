@@ -11,18 +11,18 @@ function getFile(file, elmnt){
 }
 
 let header = document.querySelector("header");
-getFile("./header.html",header);
+header && getFile("./header.html",header);
 
 let pageLoader = document.createElement("div");
 pageLoader.classList.add('page-loader');
 getFile("./page-loader.html",pageLoader);
-header.before(pageLoader);
+header && header.before(pageLoader);
 
 let stickyHeader = document.createElement("div");
 stickyHeader.classList.add('sticky-header');
 stickyHeader.classList.add('flex');
 getFile("./header-sticky.html",stickyHeader);
-header.after(stickyHeader);
+header && header.after(stickyHeader);
 
 let responsiveHeader = document.createElement("div");
 responsiveHeader.classList.add('rspns-hdr');
@@ -30,8 +30,8 @@ getFile("./header-responsive.html",responsiveHeader);
 stickyHeader.after(responsiveHeader);
 
 let footer = document.querySelector("footer");
-getFile("./footer.html",footer);
+footer && getFile("./footer.html",footer);
 
 let footerNewsletter = document.createElement("section");
 getFile("./footer-newsletter.html",footerNewsletter);
-footer.before(footerNewsletter);
+footer && footer.before(footerNewsletter);
