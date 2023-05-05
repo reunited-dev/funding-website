@@ -35,3 +35,6 @@ footer && getFile("./footer.html",footer);
 let footerNewsletter = document.createElement("section");
 getFile("./footer-newsletter.html",footerNewsletter);
 footer && footer.before(footerNewsletter);
+
+let reunitedFundProgress = document.getElementById("reunitedFundProgress")
+getFile("https://asso1.reunited.fund/meveo/rest/listPayments/gypaete",reunitedFundProgress);
